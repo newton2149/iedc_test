@@ -1,5 +1,4 @@
 
-
 .nav-style {
     color: #000000;
     box-shadow:0px 4px 12px 0px rgba(0, 0, 0, 0.25) ;
@@ -9,25 +8,43 @@
     font-size: 30px;
     font-family: 'Open Sans';
     color: #6657DA;
+   
 }
 .nav-button__signup {
     border-radius: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
-
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 120px;
+    height: inherit;
+    
     background-color: #6657DA;
 }
+
 
 .nav-button__login {
     background-color:transparent;
     border-radius: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 120px;
+    height: inherit;
+    
     border-color:#6657DA ;
     color: #6657DA;
 
     
 }
 
+.nav-item{
+    margin: 10px;
+    padding-top: 5px;
+    align-items: center;
+    cursor: pointer;
+    padding: auto;
+    width:width-adjust;
+    text-size-adjust: inherit;
+}
 
-    
+.active{
+    color: #6657DA;
+}
